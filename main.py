@@ -102,7 +102,7 @@ async def inline_handlers(_, inline: InlineQuery):
                                              f"**Leechers:** `{torrentList[i]['Leechers']}`\n"
                                              f"**Uploader:** `{torrentList[i]['Uploader']}`\n"
                                              f"**Uploaded on {torrentList[i]['Date']}**\n\n"
-                                             f"**Magnet:**\n`{torrentList[i]['Magnet']}`\n\nPowered By @venomofwrite",
+                                             f"**Magnet:**\n`{torrentList[i]['Magnet']}`\n\nPowered By @venomtorrentbot",
                                 parse_mode="Markdown"
                             ),
                             reply_markup=InlineKeyboardMarkup(
