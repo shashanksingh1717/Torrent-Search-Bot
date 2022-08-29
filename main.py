@@ -19,8 +19,8 @@ DEFAULT_SEARCH_MARKUP = [
                      InlineKeyboardButton("Go Inline", switch_inline_query="")],
                     [InlineKeyboardButton("Search Anime", switch_inline_query_current_chat="!a "),
                      InlineKeyboardButton("GO Inline", switch_inline_query_current_chat="!a ")],
-                    [InlineKeyboardButton("Developer: @venomofwrite", url="https://t.me/venomofwrite")]
-                    [InlineKeyboardButton("channel: @homiesmovie", url="https://t.me/homiesmovie")]
+                    [InlineKeyboardButton("Developer: @venomofwrite", url="https://t.me/venomofwrite")],
+                    [InlineKeyboardButton("channel: @homiesmovie", url="https://t.me/homiesmovie")],
                    ]
 
 
